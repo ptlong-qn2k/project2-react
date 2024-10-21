@@ -34,7 +34,7 @@ const Component3 = () => {
                             <p className="text-[16px] text-center mb-6">Cloud & Containerization</p>
                             <div className="w-[437px] h-[79px] text-[13px] flex flex-row justify-between md:w-full md:grid md:h-auto md:grid-cols-3 md:grid-rows-2 md:gap-5">
                                 {ListIcon && ListIcon.map((data) => (
-                                    <div key={data.id} className="flex flex-col items-center justify-between">
+                                    <div key={data.id} className="w-[52px] flex flex-col items-center justify-between">
                                         <img src={data.URL} className="mb-[7px]" />
                                         <p>{data.Name}</p>
                                     </div>
@@ -46,7 +46,7 @@ const Component3 = () => {
                             <div className="flex flex-row gap-x-[25px] w-[514px] md:flex-col md:w-full">
                                 <div className="h-[79px] text-[13px] flex flex-row gap-x-[25px] justify-center md:mb-[25px] md:w-full md:h-auto md:justify-center ">
                                     {ListIcon3 && ListIcon3.map(({ URL, id, Name }) => (
-                                        <div key={id} className={`flex flex-col items-center justify-between`}>
+                                        <div key={id} className={`w-[52px] flex flex-col items-center justify-between`}>
                                             <img src={URL} className="mb-[7px]" />
                                             <p>{Name}</p>
                                         </div>
@@ -54,7 +54,7 @@ const Component3 = () => {
                                 </div>
                                 <div className="h-[79px] text-[13px] flex flex-row gap-x-[25px] justify-center md:justify-center md:w-full md:h-auto">
                                     {ListIcon4 && ListIcon4.map(({ URL, id, Name }) => (
-                                        <div key={id} className={`flex flex-col items-center justify-between`}>
+                                        <div key={id} className={`w-[52px] flex flex-col items-center justify-between`}>
                                             <img src={URL} className="mb-[7px]" />
                                             <p>{Name}</p>
                                         </div>
@@ -105,7 +105,7 @@ const Component3 = () => {
                             <div
                                 className="w-[437px] h-[79px] text-[13px] flex flex-row justify-between md:w-full md:grid md:h-auto md:grid-cols-3 md:grid-rows-2 md:gap-5">
                                 {ListIcon2 && ListIcon2.map((data) => (
-                                    <div key={data.id} className="flex flex-col items-center justify-between">
+                                    <div key={data.id} className="w-[52px] flex flex-col items-center justify-between">
                                         <img src={data.URL} className="mb-[7px]" />
                                         <p>{data.Name}</p>
                                     </div>

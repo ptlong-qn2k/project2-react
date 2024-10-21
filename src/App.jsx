@@ -12,7 +12,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='w-[full] m-auto font-gotham md:w-full md:px-[32px]'>
+    <div className='w-[full] m-auto font-gotham md:w-[375px] md:px-[32px]'>
       <Header />
       <Component1 />
       <Component2 />

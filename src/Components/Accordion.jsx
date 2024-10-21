@@ -1,6 +1,7 @@
 import { useState } from "react"
 const Accordion = ({ id, title, content }) => {
     const [open, setOpen] = useState(false)
+
     return (
         <div>
             <div onClick={() => setOpen(!open)}>

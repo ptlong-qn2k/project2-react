@@ -10,7 +10,7 @@ const Component5 = () => {
                 <div className="w-[674px] h-[1016px] flex flex-col md:h-full md:w-full ">
                     {Development && Development.map((data) => (
                         <div key={data.id} className="deleteHr">
-                            <h5 className={`h-[full] text-2xl font-bold before:mr-[10px] before:content-[attr(data-id)] before:text-primary mb-[15px]`} data-id={data.id}>{data.title}</h5>
+                            <h5 className={`h-[full] text-2xl font-bold before:mr-[10px] before:content-[attr(data-id)] before:text-primary mb-[15px]`} data-id={"0" + data.id}>{data.title}</h5>
                             <div className="mb-[11px]">
                                 <p className="text-lg">{data.content1}</p>
                                 <p className="text-lg">{data.content2}</p>

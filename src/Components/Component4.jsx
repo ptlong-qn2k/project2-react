@@ -13,17 +13,15 @@ const Component4 = () => {
                 can transform your business.</p>
             <div className="flex flex-row justify-center mb-5 md:flex-col">
                 {Approaches && Approaches.map((data) => (
-                    <div key={data.id} className="h-[364px] flex flex-col items-center px-6 border-r-[1px] border-black last:border-none">
-                        <div className={`w-[98px] h-[98px] rounded-[50%] bg-red-200 flex justify-center items-center mb-[21px]`}>
+                    <div key={data.id} className="w-[380px] h-[364px] flex flex-col items-center px-6 border-r-[1px] border-black last:border-none md:border-b md:border-r-0 md:w-full md:h-full md:mb-10 ">
+                        <div className={`w-[98px] h-[98px] rounded-[50%] relative top-[-12px] bg-red-200 flex justify-center items-center mb-[6px] md:top-0 md:mb-[21px]`}>
                             <img src={data.URL} alt="" className="w-16 h-16" />
                         </div>
                         <h5 className="text-[22px] mb-[21px]">{data.title}</h5>
-                        <p className="w-[343px] h-[162px] text-center text-lg leading-[27px] px-4">
+                        <p className="w-[343px] h-[full] text-center text-lg leading-[27px] px-4">
                             {data.content}
                         </p>
                     </div>
-
-
                 ))
                 }
             </div >
