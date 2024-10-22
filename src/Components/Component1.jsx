@@ -2,7 +2,7 @@ import "../Styles/App.css"
 const Component1 = () => {
     return (
         <div>
-            <div className="w-[1112px] mx-auto flex flex-row justify-between align-bottom mb-[86px] md:w-full md:mb-[73px]">
+            <div className="w-[1112px] mx-auto flex flex-row justify-between align-bottom mb-[71px] md:w-full md:mb-[73px]">
                 <div className="w-full h-full flex flex-col justify-start md:w-full">
                     <div>
                         <h3 className="w-[668px] text-5xl leading-[60px] font-bold md:w-full md:text-[35px] md:leading-[43.75px]">

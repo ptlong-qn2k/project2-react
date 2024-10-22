@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: gotham;
-  src: url(../public/fontDownload/SVN-Gotham bold.otf);
+  src: url(../public/fontDownload/Gotham-Bold.otf);
 }
 
 body {
@@ -62,7 +62,7 @@ body {
 
 .list_black {
 
-  @apply before:bg-[url('/image/session2/+.png')] before:inline-block before:content-[''] before:w-[17px] before:h-[17px] before:mr-[10px] before:bg-contain before:bg-no-repeat;
+  @apply before:inline-block before:content-[''] before:bg-[url('/image/session2/+.png')] before:w-[17px] before:h-[17px] before:mr-[10px] before:bg-contain before:bg-no-repeat;
   /* &::before {
       background-image: url('/image/session2/+.png');
       content: "";
@@ -74,7 +74,7 @@ body {
 }
 
 .list_red {
-  @apply before:bg-[url(/image/session2/++.png)] before:inline-block before:content-[''] before:w-[17px] before:h-[17px] before:mr-[10px] before:bg-contain before:bg-no-repeat;
+  @apply before:inline-block before:content-[''] before:bg-[url('/image/session2/++.png')] before:w-[17px] before:h-[17px] before:mr-[10px] before:bg-contain before:bg-no-repeat;
 
 }
 

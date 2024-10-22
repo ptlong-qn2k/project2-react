@@ -21,7 +21,7 @@ const Component5 = () => {
                 </div>
                 <div className=" flex flex-col items-end md:hidden ">
                     {Development && Development.map((data) => (
-                        <img key={data.id} src={data.URL} alt="" className="w-[full] h-[full] mb-[49px] last:mb-0" />
+                        <img key={data.id} src={data.URL} alt="" className="max-w-[346px] w-[full] h-[full] mb-[49px] last:mb-0" />
                     ))}
                 </div>
             </div>

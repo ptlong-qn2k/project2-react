@@ -1,5 +1,6 @@
+import React from "react"
 import { useState } from "react"
-const Accordion = ({ id, title, content }) => {
+const Accordion = ({ title, content }) => {
     const [open, setOpen] = useState(false)
 
     return (

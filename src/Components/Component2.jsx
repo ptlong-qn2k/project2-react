@@ -31,7 +31,7 @@ const Component2 = () => {
                 <hr className="border w-full" />
                 <div className=" flex flex-row pt-8 mb-8 md:flex-col">
                     <h3 className="w-[296px] text-[35px] rounded-[52.5px] mr-[37px] font-bold md:mb-3 md:text-[28px]">Decentralized Solutions</h3>
-                    <div className="list-inside text-xl flex flex-col justify-between md:w-full md:text-lg cursor-pointer">
+                    <div className="text-xl flex flex-col justify-between md:w-full md:text-lg cursor-pointer">
                         {accordionData2 && accordionData2.map(({ id, title, content }) => (
                             <Accordion key={id} title={title} content={content} />
                         ))}
@@ -40,7 +40,7 @@ const Component2 = () => {
                 <hr className="border w-full" />
                 <div className="flex flex-row pt-8 md:flex-col md:w-full">
                     <h3 className="w-[296px] text-[35px] mr-[37px] font-bold md:mb-3 md:text-[28px]">Blockchain Solutions</h3>
-                    <div className="list-inside text-xl flex flex-col justify-between md:w-full md:text-lg cursor-pointer">
+                    <div className="text-xl flex flex-col justify-between md:w-full md:text-lg cursor-pointer">
                         {accordionData3 && accordionData3.map(({ id, title, content }) => (
                             <Accordion key={id} title={title} content={content} />
                         ))}
